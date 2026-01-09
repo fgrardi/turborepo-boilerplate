@@ -57,7 +57,7 @@ export default function Page() {
 			>
 				<p
 					className={`
-						fixed top-0 left-0 flex w-full justify-center border border-neutral-800 from-inherit px-4 pt-8 pb-6 backdrop-blur-2xl
+						border-neutral-800 fixed top-0 left-0 flex w-full justify-center border from-inherit px-4 pt-8 pb-6 backdrop-blur-2xl
 						lg:static lg:w-auto lg:rounded-xl lg:p-4
 					`}
 				>

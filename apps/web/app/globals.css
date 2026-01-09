@@ -1,6 +1,30 @@
 @import "tailwindcss";
 @import "@repo/tailwind-config";
 
+/* Overrides styles from tailwind-config */
+/* @theme {
+  --color-*: initial;
+
+  --color-primary-50: rgba(229, 227, 255, 1);
+  --color-primary-100: rgba(183, 178, 255, 1);
+  --color-primary-200: rgba(140, 145, 255, 1);
+  --color-primary-300: rgba(60, 0, 170, 1);
+  --color-primary-400: rgba(19, 18, 54, 1);
+
+  --color-neutral-50: rgba(249, 244, 242, 1);
+  --color-neutral-200: rgba(198, 193, 185, 1);
+
+  --color-white: rgba(255, 255, 255, 1);
+  --color-black: var(--color-primary-400);
+  --color-red: rgba(180, 0, 9, 1);
+
+  --color-accent-1: red;
+  --color-accent-2: red;
+
+  --color-foreground: var(--color-black);
+  --color-background: var(--color-white);
+} */
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
