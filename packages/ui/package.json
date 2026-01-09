@@ -9,7 +9,8 @@
   ],
   "exports": {
     "./styles.css": "./dist/index.css",
-    "./*": "./dist/*.js"
+    "./*": "./dist/*.js",
+    "./components/*": "./src/components/*.tsx"
   },
   "license": "MIT",
   "scripts": {
@@ -18,7 +19,8 @@
     "check-types": "tsc --noEmit",
     "dev:styles": "tailwindcss -i ./src/styles.css -o ./dist/index.css --watch",
     "dev:components": "tsc --watch",
-    "lint": "eslint src --max-warnings 0"
+    "lint": "eslint src --max-warnings 0",
+    "lint:fix": "eslint src --fix"
   },
   "peerDependencies": {
     "react": "^19"
