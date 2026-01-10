@@ -1,6 +1,6 @@
-import { Card } from '@repo/ui/components/card';
-import { Gradient } from '@repo/ui/components/gradient';
-import { TurborepoLogo } from '@repo/ui/turborepo-logo';
+import Card from '@repo/ui/components/card';
+import Gradient from '@repo/ui/components/gradient';
+import TurborepoLogo from '@repo/ui/turborepo-logo';
 import Image from 'next/image';
 
 const LINKS = [
@@ -149,9 +149,9 @@ export default function Page() {
 					>
 						<svg
 							className={`
-								w-[160px] fill-black
-								md:w-[200px]
+								fill-black w-[160px]
 								dark:fill-white
+								md:w-[200px]
 							`}
 							viewBox="0 0 506 50"
 							width={200}
