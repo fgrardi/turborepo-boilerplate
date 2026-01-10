@@ -6,11 +6,11 @@ interface ICardProps {
 	href: string;
 }
 
-export function Card({
+const Card = ({
 	title,
 	children,
 	href,
-}: ICardProps) {
+}: ICardProps) =>{
 	return (
 		<a
 			className="group rounded-lg border  border-transparent px-5 py-4 transition-colors hover:border-neutral-700 hover:bg-neutral-800/30"
@@ -31,4 +31,6 @@ export function Card({
 			</p>
 		</a>
 	);
-}
+};
+
+export default Card;

@@ -6,11 +6,11 @@ interface IGradientProps {
 	className?: string;
 }
 
-export function Gradient({
+const Gradient = ({
 	conic,
 	className,
 	small,
-}: IGradientProps) {
+}: IGradientProps) => {
 	return (
 		<span
 			className={clsx(
@@ -22,4 +22,6 @@ export function Gradient({
 			)}
 		/>
 	);
-}
+};
+
+export default Gradient;

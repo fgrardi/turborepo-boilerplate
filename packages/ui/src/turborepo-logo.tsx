@@ -1,4 +1,4 @@
-export const TurborepoLogo = () => {
+const TurborepoLogo = () => {
 	return (
 		<svg
 			aria-label="Turbo logomark"
@@ -36,3 +36,5 @@ export const TurborepoLogo = () => {
 		</svg>
 	);
 };
+
+export default TurborepoLogo;
