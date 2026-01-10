@@ -1,22 +1,75 @@
 {
-  // Disable the default formatter
-  "prettier.enable": false,
-  "editor.formatOnSave": false,
-  // Other
-  "eslint.workingDirectories": [
-    {
-      "mode": "auto"
-    }
-  ],
-  "eslint.useFlatConfig": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "always",
-    "source.organizeImports": "always"
-  }
+	// ======================================================================
+	// ESLint & Prettier
+	// ======================================================================
+	"prettier.enable": false,
+	"editor.formatOnSave": false,
+	"eslint.workingDirectories": [
+		{
+		"mode": "auto"
+		}
+	],
+	"eslint.useFlatConfig": true,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "always",
+		"source.organizeImports": "always"
+	},
+	// ======================================================================
+	// Workflow
+	// ======================================================================
+	"todo-tree.general.tags": [
+		"TODO",
+		"BUG",
+		"BLOCKED",
+		"NOTE"
+	],
+	"todo-tree.general.tagGroups": {
+		"TODO": ["TODO"],
+		"BUG": ["BUG"],
+		"BLOCKED": ["BLOCKED"],
+		"NOTE": ["NOTE"],
+	},
+	"todo-tree.highlights.defaultHighlight": {
+		"icon": "kebab-horizontal",
+		"gutterIcon": true,
+		"foreground": "#d5e0f9",
+		"background": "#d5e0f9",
+		"type": "text-and-comment",
+		"opacity": 30
+	},
+	"todo-tree.highlights.customHighlight": {
+		"TODO": {
+			"icon": "check-circle",
+			"foreground": "#9ECE6A",
+			"background": "#9ECE6A"
+		},
+		"BLOCKED": {
+			"icon": "blocked",
+			"foreground": "#D6A866",
+			"background": "#D6A866"
+		},
+		"BUG": {
+			"icon": "bug",
+			"foreground": "#DB5870",
+			"background": "#DB5870"
+		},
+		"NOTE": {
+			"icon": "note",
+			"foreground": "#6495ED",
+			"background": "#6495ED",
+		},
+	},
+	"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|\\{/\\*)\\s*($TAGS)",
+	"todo-tree.regex.subTagRegex": "^\\s*\\((.*)\\)",
+	"todo-tree.tree.labelFormat": "${after}",
+	"todo-tree.tree.sortTagsOnlyViewAlphabetically": true,
+	"todo-tree.tree.buttons.groupBySubTag": true,
+	"todo-tree.tree.flat": true,
+	"todo-tree.filtering.excludeGlobs": ["**/node_modules/*"]
 }

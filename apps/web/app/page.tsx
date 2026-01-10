@@ -3,6 +3,10 @@ import Gradient from '@repo/ui/components/gradient';
 import TurborepoLogo from '@repo/ui/turborepo-logo';
 import Image from 'next/image';
 
+// TODO: Update the links below to point to your own resources.
+// BLOCKED: Update the links below to point to your own resources.
+// BUG: Update the links below to point to your own resources.
+// NOTE: Update the links below to point to your own resources.
 const LINKS = [
 	{
 		title: 'Docs',
@@ -26,26 +30,6 @@ const LINKS = [
 	},
 ];
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const array: any[] = [
-	'1',
-	'2',
-	'3',
-	'4',
-	'5',
-];
-
-array.push('6');
-
-const PascalCaseArray = [
-	{ name: 'a' },
-	{ name: 'b' },
-	{ name: 'c' },
-	{ name: 'd' },
-];
-
-PascalCaseArray.push({ name: 'e' });
-
 export default function Page() {
 	return (
 		<main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -64,14 +48,6 @@ export default function Page() {
 					examples/with-tailwind -&nbsp;
 					<code className="font-mono font-bold">web</code>
 				</p>
-
-				<Gradient />
-
-				<Gradient />
-
-				<Gradient />
-
-				<Gradient />
 
 				<Gradient />
 
@@ -149,7 +125,7 @@ export default function Page() {
 					>
 						<svg
 							className={`
-								fill-black w-[160px]
+								fill-black w-40
 								dark:fill-white
 								md:w-[200px]
 							`}
