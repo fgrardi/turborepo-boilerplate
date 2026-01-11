@@ -1,6 +1,6 @@
 import Card from '@repo/ui/components/Card';
 import Gradient from '@repo/ui/components/Gradient';
-import Logo from '@repo/ui/Logo';
+import Logo from '@repo/ui/components/Logo';
 import Image from 'next/image';
 
 const LINKS = [
