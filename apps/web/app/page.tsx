@@ -1,6 +1,6 @@
-import Card from '@repo/ui/components/card';
-import Gradient from '@repo/ui/components/gradient';
-import TurborepoLogo from '@repo/ui/turborepo-logo';
+import Card from '@repo/ui/components/Card';
+import Gradient from '@repo/ui/components/Gradient';
+import Logo from '@repo/ui/Logo';
 import Image from 'next/image';
 
 // TODO: Update the links below to point to your own resources.
@@ -108,7 +108,7 @@ export default function Page() {
 						</div>
 
 						<div className="z-50 flex items-center justify-center">
-							<TurborepoLogo />
+							<Logo />
 						</div>
 					</div>
 
